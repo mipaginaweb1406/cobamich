@@ -1,0 +1,93 @@
+<html>
+<head>
+ 
+
+<title>Cotizaciones</title>
+<link rel="stylesheet" href="tema.css">
+
+
+
+</head>
+<body>
+  
+<div style=" height:20%; background-color: #14B6E6;"  >
+  <center><h1 class="display-3">Cotizaciones</h1></center>
+</div>
+
+<div style="padding: 3px 10px; border: PowderBlue 5px solid; border-radius: 20px; width: 40%; margin: 10px 0 0 400px;">
+ 
+<div class="form-group" style="    ">
+     
+       <label for="exampleSelect1" >Destino</label> 
+       <select class="form-control" id="exampleSelect1">
+        <option>Mazatlan</option>
+        <option>Zacatecas</option>
+        <option>Nayarit</option>
+        <option>Aguas Calientes</option>
+        <option>Yucatan</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Fecha</label>
+      <input type="date" class="form-control" id="fecha" aria-describedby="emailHelp" >
+     
+    </div>
+
+    <fieldset class="form-group">
+      <legend>Tipo de viaje</legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+          ida y vuelta
+        </label>
+      </div>
+      <div class="form-check">
+      <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          solo ida
+        </label>
+      </div>
+      
+    </fieldset>
+ 
+        <div class="form-group">
+      <label for="exampleInputEmail1">Punto de salida</label>
+      <input type="text" class="form-control" id="salida" aria-describedby="emailHelp" >
+     
+    </div>
+
+      <div class="form-group">
+      <label for="exampleInputEmail1">Numero de personas</label>
+      <input type="number" class="form-control" id="nopersonas" aria-describedby="emailHelp" >
+     
+    </div>
+
+    <fieldset class="form-group">
+      <legend>Hotel</legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" value="" checked="">
+         5 estrellas
+        </label>
+      </div>
+      <div class="form-check ">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" value="" >
+          2 estrellas 
+        </label>
+      </div>
+    </fieldset>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Numero de habitaciones</label>
+      <input type="number" class="form-control" id="nohabitaciones" aria-describedby="emailHelp" >
+     
+    </div>
+
+   <button type="button" class="btn btn-outline-primary">Cotizar</button>
+   <button type="button" class="btn btn-outline-danger">Cancelar</button>
+</div>
+</body>
+</html>
+
